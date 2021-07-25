@@ -2363,6 +2363,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/packager-ts@npm:^2.0.0-alpha.3":
+  version: 2.0.0-nightly.778
+  resolution: "@parcel/packager-ts@npm:2.0.0-nightly.778"
+  dependencies:
+    "@parcel/plugin": 2.0.0-nightly.778+ba7d2263
+  checksum: 08cddc04ccab2efbd0911b5cf0529cdfcdf0de8aacbe0439717ffc25c8b0baa706072eb4e06d7fbe010d9f3e96dabe71dae8bed0440cb10b5ec5163b97c06735
+  languageName: node
+  linkType: hard
+
 "@parcel/plugin@npm:2.0.0-nightly.778+ba7d2263":
   version: 2.0.0-nightly.778
   resolution: "@parcel/plugin@npm:2.0.0-nightly.778"
@@ -2588,6 +2597,31 @@ __metadata:
     "@parcel/utils": 2.0.0-nightly.778+ba7d2263
     react-refresh: ^0.9.0
   checksum: cc942784b287ba65e54f24de6277d33bc5f9d5ecde8051f041645bfdab8d7fe7f5df6bb6cc1a18a9d67ed1921b3231b8a04d9088f34a296d339473cd43f55805
+  languageName: node
+  linkType: hard
+
+"@parcel/transformer-typescript-types@npm:^2.0.0-alpha.3":
+  version: 2.0.0-nightly.778
+  resolution: "@parcel/transformer-typescript-types@npm:2.0.0-nightly.778"
+  dependencies:
+    "@parcel/plugin": 2.0.0-nightly.778+ba7d2263
+    "@parcel/source-map": 2.0.0-rc.5
+    "@parcel/ts-utils": 2.0.0-nightly.778+ba7d2263
+    nullthrows: ^1.1.1
+  peerDependencies:
+    typescript: ">=3.0.0"
+  checksum: 2268b676fec8825d57e6a30484adb3a3bce2ee3ee192a78a8bae29c3ff159d532190bff6de511853a612f10904f4c53dcd8493dd2f536ed64507ca9182fb2706
+  languageName: node
+  linkType: hard
+
+"@parcel/ts-utils@npm:2.0.0-nightly.778+ba7d2263":
+  version: 2.0.0-nightly.778
+  resolution: "@parcel/ts-utils@npm:2.0.0-nightly.778"
+  dependencies:
+    nullthrows: ^1.1.1
+  peerDependencies:
+    typescript: ">=3.0.0"
+  checksum: 669265d64a79e4fd2ed58abb32090f195a2299f7c8505449a471f5df7c11e7b93d89c3dc03254168ba2b1995d84a2b875c1a20ff60317bb99dca22b0de923b0a
   languageName: node
   linkType: hard
 
@@ -11936,6 +11970,8 @@ fsevents@^1.2.7:
     "@babel/template": ^7.14.5
     "@parcel/babel-plugin-transform-runtime": ^2.0.0-nightly.1823
     "@parcel/babel-preset-env": ^2.0.0-alpha.3
+    "@parcel/packager-ts": ^2.0.0-alpha.3
+    "@parcel/transformer-typescript-types": ^2.0.0-alpha.3
     "@storybook/addon-actions": ^6.3.5
     "@storybook/addon-essentials": ^6.3.5
     "@storybook/addon-links": ^6.3.5
