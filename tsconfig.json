@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "*": ["node_modules/*"],
+      "@nexus-ui/button": ["./packages/button/src"],
+      "@nexus-ui/tailwind-config": ["./packages/tailwind-config/src"]
+    }
+  }
+}

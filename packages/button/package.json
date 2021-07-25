@@ -1,0 +1,33 @@
+{
+  "name": "@nexus-ui/button",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "hylickipiotr",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prepublish": "yarn clean",
+    "version": "yarn version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hylickipiotr/nexus-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hylickipiotr/nexus-ui/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10"
+  },
+  "peerDependencies": {
+    "react": "17.0.2"
+  }
+}

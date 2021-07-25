@@ -1,0 +1,21 @@
+node_modules
+dist
+
+# Yarn 2 build artifacts
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+.yarn/*
+.yarn/cache
+.yarn/patches
+.yarn/plugins
+.yarn/releases
+.yarn/sdks
+.yarn/versions
+
+# Storybook
+.storybook/build.css
+
+# Tailwind
+.tailwind
+
+# Parcel
+.parcel-cache
